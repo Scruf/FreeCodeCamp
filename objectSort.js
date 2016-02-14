@@ -1,9 +1,9 @@
 
 function sortLibrary() {
-    library.sort(function(a,b){
-        return a.title < b.title ? -1 : 1;
-    });
-    console.log(library);
+  library.sort(function(el,el1){
+          return el.title < el1.title ? -1 : 1;          
+      });
+     console.log(library);
 } 
 
 // tail starts here
@@ -21,7 +21,7 @@ var library = [
     {
         author: 'Suzanne Collins',
         title: 'Mockingjay: The Final Book of The Hunger Games',
-        libraryID: 3245
+        libraryID: 3245dou
     }
 ];
 
